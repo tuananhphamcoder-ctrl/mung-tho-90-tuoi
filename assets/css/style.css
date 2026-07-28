@@ -290,7 +290,7 @@ footer small { font-size: .72rem; }
   display: inline-block;
   font-family: var(--serif);
   font-weight: 600;
-  font-size: clamp(4.2rem, 11vw, 6.5rem) !important;
+  font-size: clamp(3.6rem, 9vw, 5.4rem) !important;
   line-height: 0.95 !important;
 
   background: linear-gradient(180deg, #fff2b6, #bd7b15);

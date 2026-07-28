@@ -139,7 +139,11 @@ button { cursor: pointer; }
   color: transparent;
   text-shadow: 0 9px 25px rgba(201,146,50,.12);
 }
-.age-word { font: 500 clamp(1.2rem,4vw,2.2rem) var(--serif); color: var(--gold-light); }
+
+.age-word {
+  font: 500 clamp(1rem,3vw,1.8rem) var(--serif);
+  color: var(--gold-light);
+}
 .hero blockquote { margin: 18px 0 12px; font: 400 clamp(1.8rem,6vw,3.2rem)/1.18 var(--script); color: #ffeab4; }
 .gold-divider { display: flex; align-items: center; gap: 12px; width: min(340px,88%); margin: 18px auto; color: var(--gold-light); }
 .gold-divider::before, .gold-divider::after { content: ""; height: 1px; flex: 1; background: linear-gradient(90deg, transparent, var(--gold-light), transparent); }

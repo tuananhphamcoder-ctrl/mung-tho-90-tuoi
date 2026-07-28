@@ -1,0 +1,10 @@
+{
+  "name": "Lễ mừng thượng thọ Bà Phạm Thị Phi Yến",
+  "short_name": "Thượng thọ 90",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#fff8e8",
+  "theme_color": "#650808",
+  "lang": "vi",
+  "icons": []
+}

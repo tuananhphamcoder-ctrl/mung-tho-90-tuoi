@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#6e0808">
+  <meta name="description" content="Thiệp mời Lễ mừng thượng thọ 90 tuổi Bà Phạm Thị Phi Yến, ngày 22/08/2026 tại Buffet Chay Cỏ Nội, Khách sạn Bông Sen.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="vi_VN">
+  <meta property="og:title" content="Lễ mừng thượng thọ Bà Phạm Thị Phi Yến — 90 tuổi">
+  <meta property="og:description" content="Trân trọng kính mời quý khách đến chung vui cùng gia đình vào Thứ Bảy, ngày 22/08/2026.">
+  <meta property="og:image" content="assets/images/anh-ba.webp">
+  <title>Lễ mừng thượng thọ Bà Phạm Thị Phi Yến — 90 tuổi</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700&family=Great+Vibes&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🪷</text></svg>">
+</head>
+<body>
+  <div class="page-glow" aria-hidden="true"></div>
+  <div id="lotusParticles" class="lotus-particles" aria-hidden="true"></div>
+
+  <div id="intro" class="intro" role="dialog" aria-modal="true" aria-label="Mở thiệp mời">
+    <div class="intro-stars" aria-hidden="true"></div>
+    <div class="envelope-scene">
+      <div class="envelope" id="envelope">
+        <div class="envelope-back"></div>
+        <div class="letter">
+          <div class="letter-inner">
+            <span class="mini-kicker">Trân trọng kính mời</span>
+            <strong>Bà Phạm Thị Phi Yến</strong>
+            <span class="mini-age">90 tuổi</span>
+          </div>
+        </div>
+        <div class="envelope-front-left"></div>
+        <div class="envelope-front-right"></div>
+        <div class="envelope-front-bottom"></div>
+        <div class="envelope-flap"></div>
+        <div class="wax-seal" aria-hidden="true">壽</div>
+      </div>
+      <p class="intro-title">Lễ mừng thượng thọ</p>
+      <button id="openInvitation" class="button button-gold intro-button" type="button">
+        <span>Mở thiệp</span>
+        <i data-lucide="sparkles" aria-hidden="true"></i>
+      </button>
+      <p class="intro-hint">Chạm để mở thiệp và phát nhạc nền</p>
+    </div>
+  </div>
+
+  <header class="floating-nav" aria-label="Điều khiển thiệp">
+    <button id="musicToggle" class="round-control" type="button" aria-label="Bật hoặc tắt nhạc nền" aria-pressed="false">
+      <i data-lucide="music-2" aria-hidden="true"></i>
+      <span class="control-label">Nhạc nền</span>
+    </button>
+    <a class="round-control" href="#thong-tin" aria-label="Đi đến thông tin buổi tiệc">
+      <i data-lucide="chevrons-down" aria-hidden="true"></i>
+      <span class="control-label">Xem thiệp</span>
+    </a>
+  </header>
+
+  <audio id="backgroundMusic" loop preload="auto">
+    <source src="assets/audio/nhac-nen.mp3" type="audio/mpeg">
+  </audio>
+
+  <main>
+    <section class="hero" id="trang-chu">
+      <div class="hero-photo-wrap">
+        <div class="hero-halo" aria-hidden="true"></div>
+        <img class="hero-photo" src="assets/images/anh-ba.webp" alt="Bà Phạm Thị Phi Yến trong trang phục áo dài đỏ tại lễ mừng thượng thọ" width="1600" height="901">
+        <div class="hero-vignette" aria-hidden="true"></div>
+        <div class="hero-lotus hero-lotus-left" aria-hidden="true">🪷</div>
+        <div class="hero-lotus hero-lotus-right" aria-hidden="true">🪷</div>
+      </div>
+
+      <div class="hero-card" data-aos="fade-up" data-aos-duration="1100">
+        <p class="eyebrow">Trân trọng kính mời</p>
+        <h1>
+          <span>Lễ mừng thượng thọ</span>
+          <strong>Bà Phạm Thị Phi Yến</strong>
+        </h1>
+        <div class="age-mark" aria-label="90 tuổi">
+          <span class="age-number">90</span>
+          <span class="age-word">tuổi</span>
+        </div>
+        <blockquote>
+          “Phúc như Đông Hải<br>
+          Thọ tỷ Nam Sơn”
+        </blockquote>
+        <div class="gold-divider" aria-hidden="true"><span>🪷</span></div>
+        <p class="invitation-copy">Gia đình trân trọng kính mời quý khách đến chung vui, chúc thọ và lưu giữ những khoảnh khắc ấm áp bên Bà cùng con cháu.</p>
+      </div>
+    </section>
+
+    <section id="thong-tin" class="section event-section">
+      <div class="section-heading" data-aos="fade-up">
+        <span>Ngày vui sum họp</span>
+        <h2>Thông tin buổi tiệc</h2>
+      </div>
+
+      <div class="event-grid">
+        <article class="event-card" data-aos="fade-up" data-aos-delay="50">
+          <div class="event-icon"><i data-lucide="calendar-days"></i></div>
+          <p>Thứ Bảy</p>
+          <strong>22/08/2026</strong>
+        </article>
+        <article class="event-card" data-aos="fade-up" data-aos-delay="120">
+          <div class="event-icon"><i data-lucide="clock-3"></i></div>
+          <p>Đón khách</p>
+          <strong>10.30 sáng</strong>
+        </article>
+        <article class="event-card" data-aos="fade-up" data-aos-delay="190">
+          <div class="event-icon"><i data-lucide="utensils"></i></div>
+          <p>Nhập tiệc</p>
+          <strong>11h sáng</strong>
+        </article>
+      </div>
+    </section>
+
+    <section class="section countdown-section" aria-labelledby="countdownTitle">
+      <div class="section-heading light" data-aos="fade-up">
+        <span>Hẹn ngày gặp mặt</span>
+        <h2 id="countdownTitle">Đếm ngược đến ngày vui</h2>
+      </div>
+      <div class="countdown" id="countdown" data-aos="zoom-in">
+        <div class="count-box"><strong id="days">00</strong><span>Ngày</span></div>
+        <div class="count-box"><strong id="hours">00</strong><span>Giờ</span></div>
+        <div class="count-box"><strong id="minutes">00</strong><span>Phút</span></div>
+        <div class="count-box"><strong id="seconds">00</strong><span>Giây</span></div>
+      </div>
+      <p id="countdownMessage" class="countdown-message" aria-live="polite"></p>
+    </section>
+
+    <section id="xac-nhan" class="section rsvp-section">
+      <div class="ornament-card rsvp-card" data-aos="fade-up">
+        <div class="section-heading">
+          <span>RSVP</span>
+          <h2>Xác nhận tham dự</h2>
+        </div>
+        <p class="section-lead">Sự hiện diện của quý khách là niềm vui và vinh hạnh của gia đình.</p>
+
+        <div class="guest-stat" aria-live="polite">
+          <i data-lucide="users-round"></i>
+          <div>
+            <span>Đã xác nhận</span>
+            <strong><span id="guestCount">0</span> khách</strong>
+          </div>
+        </div>
+
+        <form id="rsvpForm" class="rsvp-form">
+          <label>
+            <span>Họ và tên <b>*</b></span>
+            <input type="text" name="name" autocomplete="name" required placeholder="Nhập họ và tên">
+          </label>
+          <div class="form-row">
+            <label>
+              <span>Số điện thoại</span>
+              <input type="tel" name="phone" autocomplete="tel" inputmode="tel" placeholder="Ví dụ: 0901 234 567">
+            </label>
+            <label>
+              <span>Số khách <b>*</b></span>
+              <select name="guests" required>
+                <option value="1">1 khách</option>
+                <option value="2">2 khách</option>
+                <option value="3">3 khách</option>
+                <option value="4">4 khách</option>
+                <option value="5">5 khách</option>
+                <option value="6">6 khách</option>
+                <option value="7">7 khách</option>
+                <option value="8">8 khách</option>
+                <option value="9">9 khách</option>
+                <option value="10">10 khách</option>
+              </select>
+            </label>
+          </div>
+          <fieldset>
+            <legend>Quý khách sẽ tham dự? <b>*</b></legend>
+            <label class="radio-card">
+              <input type="radio" name="attendance" value="Có tham dự" checked>
+              <span><i data-lucide="circle-check-big"></i> Có, tôi sẽ đến chung vui</span>
+            </label>
+            <label class="radio-card">
+              <input type="radio" name="attendance" value="Không tham dự">
+              <span><i data-lucide="heart-handshake"></i> Xin phép không tham dự</span>
+            </label>
+          </fieldset>
+          <label>
+            <span>Lời chúc dành cho Bà</span>
+            <textarea name="message" rows="3" maxlength="500" placeholder="Gửi một lời chúc ấm áp…"></textarea>
+          </label>
+          <button class="button button-gold submit-button" type="submit">
+            <span>Gửi xác nhận</span>
+            <i data-lucide="send"></i>
+          </button>
+          <p id="formStatus" class="form-status" role="status"></p>
+        </form>
+      </div>
+    </section>
+
+    <section id="album" class="section album-section">
+      <div class="section-heading" data-aos="fade-up">
+        <span>Những khoảnh khắc đẹp</span>
+        <h2>Album ảnh của Bà</h2>
+      </div>
+
+      <div class="swiper photo-swiper" data-aos="fade-up">
+        <div class="swiper-wrapper">
+          <figure class="swiper-slide"><img loading="lazy" src="assets/images/anh-ba.webp" alt="Bà Phạm Thị Phi Yến trong không gian thượng thọ đỏ vàng"><figcaption>Ngày vui tuổi 90</figcaption></figure>
+          <figure class="swiper-slide"><img loading="lazy" src="assets/images/anh-ba-01.webp" alt="Bà Phạm Thị Phi Yến trong không gian hoa màu kem"><figcaption>Phúc thọ viên mãn</figcaption></figure>
+          <figure class="swiper-slide"><img loading="lazy" src="assets/images/anh-ba-02.webp" alt="Chân dung Bà Phạm Thị Phi Yến trong áo dài đỏ"><figcaption>Rạng ngời và an vui</figcaption></figure>
+          <figure class="swiper-slide portrait-slide"><img loading="lazy" src="assets/images/anh-ba-ngoai-troi.webp" alt="Bà Phạm Thị Phi Yến ngồi ngoài vườn"><figcaption>Khoảnh khắc bình yên</figcaption></figure>
+        </div>
+        <div class="swiper-pagination"></div>
+        <button class="swiper-button-prev" aria-label="Ảnh trước"></button>
+        <button class="swiper-button-next" aria-label="Ảnh tiếp theo"></button>
+      </div>
+    </section>
+
+    <section id="dia-diem" class="section location-section">
+      <div class="section-heading" data-aos="fade-up">
+        <span>Hân hạnh đón tiếp</span>
+        <h2>Địa điểm tổ chức</h2>
+      </div>
+
+      <div class="location-card" data-aos="fade-up">
+        <div class="venue-copy">
+          <div class="venue-icon"><i data-lucide="map-pinned"></i></div>
+          <p>Địa điểm</p>
+          <h3>Buffet Chay Cỏ Nội</h3>
+          <address>
+            Tầng 7 Khách sạn Bông Sen<br>
+            117–123 Đồng Khởi<br>
+            Phường Sài Gòn
+          </address>
+          <a class="button button-outline" href="https://www.google.com/maps/search/?api=1&query=Buffet%20Chay%20C%E1%BB%8F%20N%E1%BB%99i%20T%E1%BA%A7ng%207%20Kh%C3%A1ch%20s%E1%BA%A1n%20B%C3%B4ng%20Sen%20117-123%20%C4%90%E1%BB%93ng%20Kh%E1%BB%9Fi" target="_blank" rel="noopener noreferrer">
+            <i data-lucide="navigation"></i>
+            <span>Mở Google Maps</span>
+          </a>
+        </div>
+        <div class="map-frame">
+          <iframe
+            title="Bản đồ Buffet Chay Cỏ Nội, Khách sạn Bông Sen"
+            src="https://www.google.com/maps?q=Buffet%20Chay%20C%E1%BB%8F%20N%E1%BB%99i%2C%20117-123%20%C4%90%E1%BB%93ng%20Kh%E1%BB%9Fi%2C%20H%E1%BB%93%20Ch%C3%AD%20Minh&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="section qr-section">
+      <div class="qr-card" data-aos="zoom-in">
+        <div>
+          <span class="eyebrow">Chia sẻ thiệp</span>
+          <h2>Quét mã QR để mở thiệp</h2>
+          <p>Mã QR này chứa đường dẫn thật của website GitHub Pages và sẽ hoạt động sau khi website được xuất bản.</p>
+          <button id="shareInvitation" class="button button-outline" type="button">
+            <i data-lucide="share-2"></i>
+            <span>Chia sẻ thiệp</span>
+          </button>
+        </div>
+        <div class="qr-wrap">
+          <img src="assets/qr/qr-thiep-online.png" alt="Mã QR mở thiệp mừng thượng thọ Bà Phạm Thị Phi Yến" width="434" height="434">
+          <span>Quét bằng camera điện thoại</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing-section">
+      <div class="closing-overlay"></div>
+      <div class="closing-content" data-aos="fade-up">
+        <span class="closing-lotus">🪷</span>
+        <p>Gia đình trân trọng kính mời</p>
+        <h2>Hẹn gặp quý khách trong ngày vui của Bà</h2>
+        <strong>22 · 08 · 2026</strong>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Lễ mừng thượng thọ Bà Phạm Thị Phi Yến — 90 tuổi</p>
+    <small>Thiệp online được thiết kế dành riêng cho gia đình.</small>
+  </footer>
+
+  <button id="backToTop" class="back-to-top" type="button" aria-label="Trở về đầu trang">
+    <i data-lucide="arrow-up"></i>
+  </button>
+
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.468.0/dist/umd/lucide.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

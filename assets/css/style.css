@@ -132,16 +132,21 @@ button { cursor: pointer; }
 .hero h1 strong { display: block; font: 600 clamp(1.45rem,5vw,3.2rem) var(--serif); text-transform: uppercase; letter-spacing: 0; white-space: nowrap; }
 .age-mark { display: flex; align-items: baseline; justify-content: center; gap: 8px; margin: 4px 0 0; }
 .age-number {
-  font: 600 clamp(2.8rem,9vw,5.2rem)/.95 var(--serif);
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: clamp(2.6rem, 7vw, 4.8rem) !important;
+  line-height: 1 !important;
+
   background: linear-gradient(180deg, #fff2b6, #bd7b15);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  text-shadow: 0 9px 25px rgba(201,146,50,.12);
+  text-shadow: 0 6px 16px rgba(201, 146, 50, 0.12);
 }
+
 .age-word {
-  font: 500 clamp(1rem,3vw,1.8rem) var(--serif);
-  color: var(--gold-light);
+  font-size: 1.35rem !important;
+  line-height: 1 !important;
 }
 .hero blockquote { margin: 18px 0 12px; font: 400 clamp(1.8rem,6vw,3.2rem)/1.18 var(--script); color: #ffeab4; }
 .gold-divider { display: flex; align-items: center; gap: 12px; width: min(340px,88%); margin: 18px auto; color: var(--gold-light); }

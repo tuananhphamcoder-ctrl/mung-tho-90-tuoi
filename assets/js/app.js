@@ -5,7 +5,7 @@
     eventDate: '2026-08-22T10:30:00+07:00',
     invitationUrl: 'https://tuananhphamcoder-ctrl.github.io/mung-tho-90-tuoi/',
     // Dán URL Web App của Google Apps Script vào giữa hai dấu nháy sau khi thiết lập Google Sheets.
-    rsvpEndpoint: ''
+    rsvpEndpoint: 'https://script.google.com/macros/s/AKfycbwTw3zh8gT4hfSpRBNFbgX8x4snNMjMe6oaolgnYP94pfa_swiQuWpgq7wNa6w28v3e/exec'
   };
 
   const $ = (selector, parent = document) => parent.querySelector(selector);

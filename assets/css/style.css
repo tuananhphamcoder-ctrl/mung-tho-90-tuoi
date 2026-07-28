@@ -286,3 +286,33 @@ footer small { font-size: .72rem; }
   *, *::before, *::after { animation-duration: .001ms !important; animation-iteration-count: 1 !important; transition-duration: .001ms !important; }
   .lotus-particles { display: none; }
 }
+/* Kích thước số 90 cuối cùng */
+.hero-card .age-mark {
+  gap: 5px !important;
+  margin-top: 12px !important;
+}
+
+.hero-card .age-mark .age-number {
+  font: 600 2.6rem/1 var(--serif) !important;
+  background: linear-gradient(180deg, #fff2b6, #bd7b15);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 5px 14px rgba(201, 146, 50, 0.15);
+}
+
+.hero-card .age-mark .age-word {
+  font: 500 1.2rem/1 var(--serif) !important;
+  color: var(--gold-light);
+}
+
+/* Điện thoại */
+@media (max-width: 600px) {
+  .hero-card .age-mark .age-number {
+    font: 600 2.2rem/1 var(--serif) !important;
+  }
+
+  .hero-card .age-mark .age-word {
+    font: 500 1rem/1 var(--serif) !important;
+  }
+}

@@ -132,14 +132,13 @@ button { cursor: pointer; }
 .hero h1 strong { display: block; font: 600 clamp(1.45rem,5vw,3.2rem) var(--serif); text-transform: uppercase; letter-spacing: 0; white-space: nowrap; }
 .age-mark { display: flex; align-items: baseline; justify-content: center; gap: 8px; margin: 4px 0 0; }
 .age-number {
-  font: 600 clamp(3.8rem,13vw,7rem)/.95 var(--serif);
+  font: 600 clamp(2.8rem,9vw,5.2rem)/.95 var(--serif);
   background: linear-gradient(180deg, #fff2b6, #bd7b15);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
   text-shadow: 0 9px 25px rgba(201,146,50,.12);
 }
-
 .age-word {
   font: 500 clamp(1rem,3vw,1.8rem) var(--serif);
   color: var(--gold-light);
